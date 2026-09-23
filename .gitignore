@@ -1,0 +1,43 @@
+# --- Variáveis de ambiente e segredos ---
+.env
+.env.*
+!.env.example
+
+# --- Ambiente virtual Python ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Cache e artefatos do Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+
+# --- Dados e exports locais ---
+*.csv
+*.log
+data/
+*.sqlite3
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+*.pid
