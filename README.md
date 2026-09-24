@@ -23,13 +23,15 @@ O **OpenF1 Data Explorer** oferece uma interface gráfica que traduz interaçõe
 ## 🗂️ Estrutura do projeto
 
 ```
-.
-├── streamlit_app.py        # Interface Streamlit (UI, filtros, gráficos)
-├── db_utils.py              # Conexão e consultas ao MongoDB (com fallback mockado)
-├── f1_data_collector.py     # Script de coleta: busca dados na API OpenF1 e popula o MongoDB
-├── requirements.txt         # Dependências do projeto
-├── .env                     # Variáveis de ambiente (não versionado)
-└── .env.example              # Exemplo de configuração do .env
+Directory structure:
+└── walterlimtrajano-openf1-data-explorer/
+    ├── README.md
+    ├── db_utils.py		# Conexão e consultas ao MongoDB (com fallback mockado)
+    ├── f1_data_collector.py		# Script de coleta: busca dados na API OpenF1 e popula o MongoDB
+    ├── Prática 04 - Manipulação dos Dados em Banco MongoDB Consultas MongoDB.docx
+    ├── requirements.txt		# Dependências do projeto
+    ├── streamlit_app.py		# Interface Streamlit (UI, filtros, gráficos)
+    └── .env.example		# Exemplo de configuração do .env
 ```
 
 ## 🔧 Pré-requisitos
